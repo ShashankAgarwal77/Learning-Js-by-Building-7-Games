@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Avenir', 'sans-serif';
+  padding-top: 12em;
+}
+
+.start {
+  border-style: dotted;
+  font-family: 'Avenir', 'sans-serif';
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1.2em;
+}
+
+.score {
+  margin-top: 2em;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 4em;
+
+  border-style: solid;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: blue;
+}
+
+.apple {
+  background-color: red;
+}
