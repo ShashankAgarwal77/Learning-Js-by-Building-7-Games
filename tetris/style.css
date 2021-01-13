@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Avenir', 'sans-serif';
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  background-color: yellow;
+  height: 20px;
+  width: 20px;
+}
+
+.game {
+  margin-left: -10.5em;
+}
+
+.grid {
+  background-color: blue;
+  height: 400px;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
