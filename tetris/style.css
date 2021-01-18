@@ -28,9 +28,16 @@ div {
 }
 
 .grid {
-  background-color: blue;
   height: 400px;
   width: 200px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.block {
+  background-color: blue;
+}
+
+.block2 {
+  background-color: purple;
 }
