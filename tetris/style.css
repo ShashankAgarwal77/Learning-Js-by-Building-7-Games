@@ -17,6 +17,13 @@ body {
   justify-content: center;
 }
 
+.startBtn {
+  display: inline-block;
+  padding: 1em;
+  margin-bottom: 2em;
+  font-family: 'Avenir', 'sans-serif';
+}
+
 div {
   background-color: yellow;
   height: 20px;
